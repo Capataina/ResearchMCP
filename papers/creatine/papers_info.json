@@ -1,0 +1,64 @@
+{
+  "2411.01004v1": {
+    "title": "Ungated, plug-and-play preclinical cardiac CEST-MRI using radial FLASH with segmented saturation",
+    "summary": "Purpose: ECG and respiratory-gated preclinical cardiac CEST-MRI acquisitions\nare difficult due to variable saturation recovery with T1, RF interference in\nthe ECG signal, and offset-to-offset variation in Z-magnetization and cardiac\nphase introduced by changes in cardiac frequency and trigger delays. Methods:\nThe proposed method consists of segmented saturation modules with radial FLASH\nreadouts and golden angle progression. The segmented saturation blocks drive\nthe system to steady-state, and because center k-space is sampled repeatedly,\nsteady-state saturation dominates contrast during gridding and reconstruction.\nTen complete Z-spectra were acquired in healthy mice using both ECG and\nrespiratory-gated, and ungated methods. Z-spectra were also acquired at\nmultiple saturation B1 values to optimize for amide and creatine contrasts.\nResults: There was no significant difference between CEST contrasts (amide,\ncreatine, MT) calculated from images acquired using ECG and respiratory-gated\nand ungated methods (p = 0.27, 0.11, 0.47). A saturation power of 1.8$\\mu$T\nprovides optimal contrast amplitudes for both amide and total creatine contrast\nwithout significantly complicating CEST contrast quantification due to water\ndirect saturation, magnetization transfer, and RF spillover between amide and\ncreatine pools. Further, variability in CEST contrast measurements was\nsignificantly reduced using the ungated radial FLASH acquisition (p = 0.002,\n0.006 for amide and creatine respectively). Conclusion: This method enables\nCEST mapping in the murine myocardium without the need for cardiac or\nrespiratory gating. Quantitative CEST contrasts are consistent with those\nobtained using gated sequences, and per-contrast variance is significantly\nreduced. This approach makes preclinical cardiac CEST-MRI easily accessible,\neven for investigators without prior experience in cardiac imaging.",
+    "authors": [
+      "Jonah Weigand-Whittier",
+      "Michael Wendland",
+      "Bonnie Lam",
+      "Mark Velasquez",
+      "Moriel H. Vandsburger"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2411.01004v1",
+    "published": "2024-11-01"
+  },
+  "1302.6605v2": {
+    "title": "Inverse Z-spectrum analysis for MT- and spillover-corrected and T1-compensated steady-state pulsed CEST-MRI - application to pH-weighted MRI of acute stroke",
+    "summary": "Endogenous chemical exchange saturation transfer (CEST) effects are always\ndiluted by competing effects such as direct water proton saturation (spillover)\nand macromolecular magnetization transfer (MT). This leads to T2-and\nMT-shine-through effects in the actual biochemical contrast of CEST. Therefore,\na simple evaluation algorithm which corrects the CEST signal was searched for.\nBy employing a recent eigenspace theory valid for spinlock and continuous wave\n(cw) CEST we predict that the inverse Z-spectrum is beneficial to Z-spectrum\nitself. Based on this we propose a new spillover- and MT-corrected\nmagnetization transfer ratio (MTRRex) yielding Rex, the exchange dependent\nrelaxation rate in the rotating frame. For verification, the amine proton\nexchange of creatine in solutions with different agar concentration was studied\nexperimentally at clinical field strength of 3T. In contrast to the compared\nstandard evaluation for pulsed CEST experiments, MTRasym, our approach shows no\nT2 or MT shine through effect. We demonstrate that spillover can be corrected\nproperly and also quantitative evaluation of pH and creatine concentration is\npossible which proves MTRRex as quantitative CEST-MRI method. A spillover\ncorrection is of special interest for clinical static field strengths and\nprotons resonating near the water peak. This is the case for -OH-CEST effects\nlike gagCEST or glucoCEST, but also amine exchange of creatine or glutamate\nwhich require high B1. Although, only showed for amine exchange, we propose our\nnormalization to work generally for DIACEST, PARACEST in slow- and fast\nexchange regime not just as a correction, but also for quantitative CEST-MRI.\nApplied to acute stroke induced in rat brain, the corrected CEST signal shows\nsignificantly higher contrast between stroke area and normal tissue as well as\nless B1 dependency compared to conventional approaches.",
+    "authors": [
+      "Moritz Zaiss",
+      "Junzhong Xu",
+      "Steffen Goerke",
+      "Imad S. Khan",
+      "Robert J. Singer",
+      "John C. Gore",
+      "Daniel F. Gochberg",
+      "Peter Bachert"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/1302.6605v2",
+    "published": "2013-02-26"
+  },
+  "2112.07890v1": {
+    "title": "Investigating myocardial infarction and its effects in patients with urgent medical problems using advanced data mining tools",
+    "summary": "In medical science, it is very important to gather multiple data on different\ndiseases and one of the most important objectives of the data is to investigate\nthe diseases. Myocardial infarction is a serious risk factor in mortality and\nin previous studies, the main emphasis has been on people with heart disease\nand measuring the likelihood of myocardial infarction in them through\ndemographic features, echocardiography, and electrocardiogram. In contrast, the\npurpose of the present study is to utilize data analysis algorithms and compare\ntheir accuracy in patients with a heart attack in order to identify the heart\nmuscle strength during myocardial infarction by taking into account emergency\noperations and consequently predict myocardial infarction. For this purpose,\n105 medical records of myocardial infarction patients with fourteen features\nincluding age, the time of emergency operation, Creatine Phosphokinase (CPK)\ntest, heart rate, blood sugar, and vein are gathered and investigated through\nclassification techniques of data analysis including random decision forests,\ndecision tree, support vector machine (SVM), k-nearest neighbor, and ordinal\nlogistic regression. Finally, the model of random decision forests with an\naccuracy of 76% is selected as the best model in terms of the mean evaluation\nindicator. Also, seven features of the creatine Phosphokinase test, urea, white\nand red blood cell count, blood sugar, time, and hemoglobin are identified as\nthe most effective features of the ejection fraction variable.",
+    "authors": [
+      "Tanya Aghazadeh",
+      "Mostafa Bagheri"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2112.07890v1",
+    "published": "2021-12-15"
+  },
+  "1802.00112v1": {
+    "title": "Frequency Domain Properties and Fundamental Limits of Buffer-Feedback Regulation in Biochemical Systems",
+    "summary": "Feedback regulation in biochemical systems is fundamental to homeostasis,\nwith failure causing disease or death. Recent work has found that cooperation\nbetween feedback and buffering---the use of reservoirs of molecules to maintain\nmolecular concentrations---is often critical for biochemical regulation, and\nthat buffering can act as a derivative or lead controller. However, buffering\ndiffers from derivative feedback in important ways: it is not typically limited\nby stability constraints on the parallel feedback loop, for some signals it\nacts instead as a low-pass filter, and it can change the location of\ndisturbances in the closed-loop system. Here, we propose a frequency-domain\nframework for studying the regulatory properties of buffer-feedback systems. We\ndetermine standard single-output closed-loop transfer functions and discuss\nloop-shaping properties. We also derive novel fundamental limits for\nbuffer-feedback regulation, which show that buffering and removal processes can\nreduce the fundamental limits on feedback regulation. We apply the framework to\nstudy the regulation for glycolysis (anaerobic metabolism) with creatine\nphosphate buffering.",
+    "authors": [
+      "Edward J. Hancock",
+      "Jordan Ang"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/1802.00112v1",
+    "published": "2018-02-01"
+  },
+  "2307.06246v1": {
+    "title": "Reaction Engineering and Comparison of Electroenzymatic and Enzymatic ATP Regeneration Systems",
+    "summary": "Adenosine-5'-triphosphate (ATP) plays a crucial role in many biocatalytic\nreactions and its regeneration can influence the performance of a related\nenzymatic reaction significantly. Here, we established an electrochemically\ncoupled ATP regeneration by pyruvate oxidase and acetate kinase (ACK) for the\nphosphorylation of mevalonate catalyzed by mevalonate kinase. A yield of 84%\nfor the product mevalonate phosphate was reached and a total turnover number\nfor ADP of 68. These metrics are promising for the development of an economic\nfeasible bioprocess and surpass many other enzymatic ATP regeneration systems.\nA comparison was made to polyphosphate kinases (PPKs), ACK, pyruvate kinase,\nand creatine kinase in terms of the phosphate donor properties and biocatalytic\nmetrics of exemplary reactions. Furthermore, our system was expanded by a PPK\nthat enables the phosphorylation of AMP, which can broaden the spectrum of\napplications even further.",
+    "authors": [
+      "Regine Siedentop",
+      "Tobias Prenzel",
+      "Siegfried R. Waldvogel",
+      "Katrin Rosenthal",
+      "Stephan L\u00fctz"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2307.06246v1",
+    "published": "2023-07-12"
+  }
+}
