@@ -3,15 +3,24 @@ import json
 
 PAPER_DIR = "papers"
 
+
 def extract_arxiv_info(paper_id: str) -> str:
     """
-    Retrieve saved paper info by ID from local JSON files.
+    Retrieve cached paper metadata by arXiv identifier from local JSON storage.
+
+    Performs filesystem traversal across topic subdirectories to locate paper data
+    previously cached by search operations. Returns serialized JSON on successful
+    lookup or error message on failure.
 
     Args:
-        paper_id: The unique arXiv ID of the paper (e.g., "2405.12345v1")
+        paper_id (str): arXiv paper identifier in short format (e.g., "2405.12345v1")
 
     Returns:
-        A formatted JSON string with paper details, or an error message if not found.
+        str: JSON-serialized paper metadata dict if found, error string otherwise
+
+    Side Effects:
+        - Filesystem I/O across papers directory structure
+        - JSON deserialization of potentially large files
     """
     for topic_dir in os.listdir(PAPER_DIR):
         file_path = os.path.join(PAPER_DIR, topic_dir, "papers_info.json")

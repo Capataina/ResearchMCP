@@ -5,7 +5,27 @@ from typing import List
 
 PAPER_DIR = "papers"
 
+
 def search_arxiv(topic: str, max_results: int = 5) -> List[str]:
+    """
+    Execute arXiv API search query and persist results to local filesystem.
+
+    Performs relevance-sorted search against arXiv database, extracts metadata
+    from response objects, and writes structured data to topic-specific JSON files
+    in the papers directory hierarchy. Maintains existing data through merge operations.
+
+    Args:
+        topic (str): Query string for arXiv search API
+        max_results (int): Maximum number of paper objects to process from API response
+
+    Returns:
+        List[str]: Collection of arXiv short IDs for successfully processed papers
+
+    Side Effects:
+        - Creates directory structure under PAPER_DIR
+        - Writes/updates papers_info.json files
+        - Network I/O to arXiv API
+    """
     client = arxiv.Client()
     search = arxiv.Search(
         query=topic,

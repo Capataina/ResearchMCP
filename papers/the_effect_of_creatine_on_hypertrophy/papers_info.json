@@ -1,0 +1,78 @@
+{
+  "1801.04008v1": {
+    "title": "Comorbid CAD and Ventricular Hypertrophy Compromise The Perfusion of Myocardial Tissue at Subcritical Stenosis of Epicardial Coronaries",
+    "summary": "BACKGROUND: Most studies of CAD revascularization have been based on and\nreported according to angiographic criteria which don't consider the relation\nbetween the resulting effective flow distal to the stenosis and the demand of a\nhypertrophied myocardial tissue.\n  MODEL: Mathematical model of the myocardial perfusion in comorbid CAD and\nventricular hypertrophy using Poiseuille's law. The analysis yields that the\ncurve, which represents the relation between the perfusion and the severity of\nCAD depending on angiographic and/or angiophysiologic criteria, is shifted to\nthe right by the effect of myocardial tissue hypertrophy. The right shift of\nsaid curve, which is directly proportional to the degree of ventricular\nhypertrophy, indicates that the perfusion of the corresponding myocardial\ntissue is compromised at angiographically and/or angiophysiologically\nsubsignificant stenosis of the supplying epicardial vessel.\n  RESULTS: Patients with comorbid CAD and left ventricular hypertrophy are more\nsensitive to CAD-related hemodynamic changes. They are more prone to develop\nischemic complications, than their peers with isolated CAD regarding the same\ndegree of coronary stenosis.\n  CONCLUSION: Patients with comorbid CAD and ventricular hypertrophy suffer\nfrom myocardial hypoperfusion at angiographically and/or angiophysiologically\nsubcritical epicardial stenosis. Accordingly; the comorbidity of both diseases\nshould be considered upon designing of the treatment regime.",
+    "authors": [
+      "Eslam Abbas"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/1801.04008v1",
+    "published": "2018-01-11"
+  },
+  "1302.6605v2": {
+    "title": "Inverse Z-spectrum analysis for MT- and spillover-corrected and T1-compensated steady-state pulsed CEST-MRI - application to pH-weighted MRI of acute stroke",
+    "summary": "Endogenous chemical exchange saturation transfer (CEST) effects are always\ndiluted by competing effects such as direct water proton saturation (spillover)\nand macromolecular magnetization transfer (MT). This leads to T2-and\nMT-shine-through effects in the actual biochemical contrast of CEST. Therefore,\na simple evaluation algorithm which corrects the CEST signal was searched for.\nBy employing a recent eigenspace theory valid for spinlock and continuous wave\n(cw) CEST we predict that the inverse Z-spectrum is beneficial to Z-spectrum\nitself. Based on this we propose a new spillover- and MT-corrected\nmagnetization transfer ratio (MTRRex) yielding Rex, the exchange dependent\nrelaxation rate in the rotating frame. For verification, the amine proton\nexchange of creatine in solutions with different agar concentration was studied\nexperimentally at clinical field strength of 3T. In contrast to the compared\nstandard evaluation for pulsed CEST experiments, MTRasym, our approach shows no\nT2 or MT shine through effect. We demonstrate that spillover can be corrected\nproperly and also quantitative evaluation of pH and creatine concentration is\npossible which proves MTRRex as quantitative CEST-MRI method. A spillover\ncorrection is of special interest for clinical static field strengths and\nprotons resonating near the water peak. This is the case for -OH-CEST effects\nlike gagCEST or glucoCEST, but also amine exchange of creatine or glutamate\nwhich require high B1. Although, only showed for amine exchange, we propose our\nnormalization to work generally for DIACEST, PARACEST in slow- and fast\nexchange regime not just as a correction, but also for quantitative CEST-MRI.\nApplied to acute stroke induced in rat brain, the corrected CEST signal shows\nsignificantly higher contrast between stroke area and normal tissue as well as\nless B1 dependency compared to conventional approaches.",
+    "authors": [
+      "Moritz Zaiss",
+      "Junzhong Xu",
+      "Steffen Goerke",
+      "Imad S. Khan",
+      "Robert J. Singer",
+      "John C. Gore",
+      "Daniel F. Gochberg",
+      "Peter Bachert"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/1302.6605v2",
+    "published": "2013-02-26"
+  },
+  "2112.07890v1": {
+    "title": "Investigating myocardial infarction and its effects in patients with urgent medical problems using advanced data mining tools",
+    "summary": "In medical science, it is very important to gather multiple data on different\ndiseases and one of the most important objectives of the data is to investigate\nthe diseases. Myocardial infarction is a serious risk factor in mortality and\nin previous studies, the main emphasis has been on people with heart disease\nand measuring the likelihood of myocardial infarction in them through\ndemographic features, echocardiography, and electrocardiogram. In contrast, the\npurpose of the present study is to utilize data analysis algorithms and compare\ntheir accuracy in patients with a heart attack in order to identify the heart\nmuscle strength during myocardial infarction by taking into account emergency\noperations and consequently predict myocardial infarction. For this purpose,\n105 medical records of myocardial infarction patients with fourteen features\nincluding age, the time of emergency operation, Creatine Phosphokinase (CPK)\ntest, heart rate, blood sugar, and vein are gathered and investigated through\nclassification techniques of data analysis including random decision forests,\ndecision tree, support vector machine (SVM), k-nearest neighbor, and ordinal\nlogistic regression. Finally, the model of random decision forests with an\naccuracy of 76% is selected as the best model in terms of the mean evaluation\nindicator. Also, seven features of the creatine Phosphokinase test, urea, white\nand red blood cell count, blood sugar, time, and hemoglobin are identified as\nthe most effective features of the ejection fraction variable.",
+    "authors": [
+      "Tanya Aghazadeh",
+      "Mostafa Bagheri"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2112.07890v1",
+    "published": "2021-12-15"
+  },
+  "2412.00787v1": {
+    "title": "TSUBF-Net: Trans-Spatial UNet-like Network with Bi-direction Fusion for Segmentation of Adenoid Hypertrophy in CT",
+    "summary": "Adenoid hypertrophy stands as a common cause of obstructive sleep\napnea-hypopnea syndrome in children. It is characterized by snoring, nasal\ncongestion, and growth disorders. Computed Tomography (CT) emerges as a pivotal\nmedical imaging modality, utilizing X-rays and advanced computational\ntechniques to generate detailed cross-sectional images. Within the realm of\npediatric airway assessments, CT imaging provides an insightful perspective on\nthe shape and volume of enlarged adenoids. Despite the advances of deep\nlearning methods for medical imaging analysis, there remains an emptiness in\nthe segmentation of adenoid hypertrophy in CT scans. To address this research\ngap, we introduce TSUBF-Nett (Trans-Spatial UNet-like Network based on\nBi-direction Fusion), a 3D medical image segmentation framework. TSUBF-Net is\nengineered to effectively discern intricate 3D spatial interlayer features in\nCT scans and enhance the extraction of boundary-blurring features. Notably, we\npropose two innovative modules within the U-shaped network architecture:the\nTrans-Spatial Perception module (TSP) and the Bi-directional Sampling\nCollaborated Fusion module (BSCF).These two modules are in charge of operating\nduring the sampling process and strategically fusing down-sampled and\nup-sampled features, respectively. Furthermore, we introduce the Sobel loss\nterm, which optimizes the smoothness of the segmentation results and enhances\nmodel accuracy. Extensive 3D segmentation experiments are conducted on several\ndatasets. TSUBF-Net is superior to the state-of-the-art methods with the lowest\nHD95: 7.03, IoU:85.63, and DSC: 92.26 on our own AHSD dataset. The results in\nthe other two public datasets also demonstrate that our methods can robustly\nand effectively address the challenges of 3D segmentation in CT scans.",
+    "authors": [
+      "Rulin Zhou",
+      "Yingjie Feng",
+      "Guankun Wang",
+      "Xiaopin Zhong",
+      "Zongze Wu",
+      "Qiang Wu",
+      "Xi Zhang"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2412.00787v1",
+    "published": "2024-12-01"
+  },
+  "2106.12511v1": {
+    "title": "High-Throughput Precision Phenotyping of Left Ventricular Hypertrophy with Cardiovascular Deep Learning",
+    "summary": "Left ventricular hypertrophy (LVH) results from chronic remodeling caused by\na broad range of systemic and cardiovascular disease including hypertension,\naortic stenosis, hypertrophic cardiomyopathy, and cardiac amyloidosis. Early\ndetection and characterization of LVH can significantly impact patient care but\nis limited by under-recognition of hypertrophy, measurement error and\nvariability, and difficulty differentiating etiologies of LVH. To overcome this\nchallenge, we present EchoNet-LVH - a deep learning workflow that automatically\nquantifies ventricular hypertrophy with precision equal to human experts and\npredicts etiology of LVH. Trained on 28,201 echocardiogram videos, our model\naccurately measures intraventricular wall thickness (mean absolute error [MAE]\n1.4mm, 95% CI 1.2-1.5mm), left ventricular diameter (MAE 2.4mm, 95% CI\n2.2-2.6mm), and posterior wall thickness (MAE 1.2mm, 95% CI 1.1-1.3mm) and\nclassifies cardiac amyloidosis (area under the curve of 0.83) and hypertrophic\ncardiomyopathy (AUC 0.98) from other etiologies of LVH. In external datasets\nfrom independent domestic and international healthcare systems, EchoNet-LVH\naccurately quantified ventricular parameters (R2 of 0.96 and 0.90 respectively)\nand detected cardiac amyloidosis (AUC 0.79) and hypertrophic cardiomyopathy\n(AUC 0.89) on the domestic external validation site. Leveraging measurements\nacross multiple heart beats, our model can more accurately identify subtle\nchanges in LV geometry and its causal etiologies. Compared to human experts,\nEchoNet-LVH is fully automated, allowing for reproducible, precise\nmeasurements, and lays the foundation for precision diagnosis of cardiac\nhypertrophy. As a resource to promote further innovation, we also make publicly\navailable a large dataset of 23,212 annotated echocardiogram videos.",
+    "authors": [
+      "Grant Duffy",
+      "Paul P Cheng",
+      "Neal Yuan",
+      "Bryan He",
+      "Alan C. Kwan",
+      "Matthew J. Shun-Shin",
+      "Kevin M. Alexander",
+      "Joseph Ebinger",
+      "Matthew P. Lungren",
+      "Florian Rader",
+      "David H. Liang",
+      "Ingela Schnittger",
+      "Euan A. Ashley",
+      "James Y. Zou",
+      "Jignesh Patel",
+      "Ronald Witteles",
+      "Susan Cheng",
+      "David Ouyang"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2106.12511v1",
+    "published": "2021-06-23"
+  }
+}

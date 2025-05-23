@@ -375,6 +375,7 @@ dependencies = [
     { name = "arxiv" },
     { name = "fastmcp" },
     { name = "mcp" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -382,6 +383,7 @@ requires-dist = [
     { name = "arxiv", specifier = ">=2.2.0" },
     { name = "fastmcp", specifier = ">=2.4.0" },
     { name = "mcp", specifier = ">=1.9.1" },
+    { name = "requests", specifier = ">=2.32.3" },
 ]
 
 [[package]]
